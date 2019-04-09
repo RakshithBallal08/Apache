@@ -6,29 +6,10 @@
   "license": "Apache-2.0",
   "source": "",
   "dependencies": [
-
-  ],
+ ],
   "operatingsystem_support": [
     {
-      "operatingsystem": "CentOS",
-      "operatingsystemrelease": [
-        "7"
-      ]
-    },
-    {
-      "operatingsystem": "OracleLinux",
-      "operatingsystemrelease": [
-        "7"
-      ]
-    },
-    {
       "operatingsystem": "RedHat",
-      "operatingsystemrelease": [
-        "7"
-      ]
-    },
-    {
-      "operatingsystem": "Scientific",
       "operatingsystemrelease": [
         "7"
       ]
@@ -38,14 +19,8 @@
       "operatingsystemrelease": [
         "8"
       ]
-    },
-    {
-      "operatingsystem": "Ubuntu",
-      "operatingsystemrelease": [
-        "16.04"
-      ]
     }
-  ],
+    ],
   "requirements": [
     {
       "name": "puppet",
