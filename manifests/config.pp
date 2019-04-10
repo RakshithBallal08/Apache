@@ -16,6 +16,7 @@ class apache::config {
 
   file { '/var/www/index.html':
     ensure => file,
-    source => 'puppet:///modules/apache/index.html',
+    #source => 'puppet:///modules/apache/index.html',
+    content => $::apache::message,
   }
 }

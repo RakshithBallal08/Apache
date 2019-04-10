@@ -7,6 +7,7 @@
 class apache(
   String $service_name = $apache::params::service_name,
   String $package_name = $apache::params::package_name,
+  String $message,
   ) inherits ::apache::params {
   class {'apache::install':
     package_name => $package_name,
